@@ -19,7 +19,7 @@ export default defineConfig({
     }
   },
   build: {
-    outDir: '../portfolio',
+    outDir: '../resume',
     emptyOutDir: true,
     chunkSizeWarningLimit: 1000,
     rollupOptions: {
@@ -32,5 +32,5 @@ export default defineConfig({
       }
     }
   },
-  base: '/portfolio/'
+  base: '/resume/'
 });

@@ -150,11 +150,11 @@ const code5 = `<?xml version="1.0" encoding="UTF-8"?>
   }
 
   .no-webp &::before {
-    background-image: url('./images/bg.jpg');
+    background-image: url('/images/bg.jpg');
   }
 
   .webp &::before {
-    background-image: url('./images/bg.webp');
+    background-image: url('/images/bg.webp');
   }
 }
 </style>

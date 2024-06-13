@@ -47,12 +47,12 @@ const closeModal = () => {
 
   /* WebP Support */
   .webp & {
-    background: url('./images/pattern.webp');
+    background: url('/images/pattern.webp');
   }
 
   /* Fallback for no WebP Support */
   .no-webp & {
-    background: url('./images/pattern.png');
+    background: url('/images/pattern.png');
   }
 
   background-size: cover;

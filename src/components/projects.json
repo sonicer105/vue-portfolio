@@ -1,0 +1,88 @@
+[
+  {
+    "id": 8,
+    "title": "Convention Services",
+    "images": [
+      { "type": "webp", "url": "./images/cs.webp" },
+      { "type": "png", "url": "./images/cs.png" }
+    ],
+    "description": "A collaborative effort to create software solutions to help facilitate services to assist with the smooth operation of conventions and other organized gatherings. This is very much a work in progress, and we do have a single module at the minimum viable product state, that being the schedule grid, with more to come soon. The grid can be directly included in a convention’s website with scripts or included as an iframe. A sample of the iframe can be found at the link below.",
+    "link": "https://cs-prod-frontend.linuxpony.dev/embed/VF2024/",
+    "linkText": "View Example"
+  },
+  {
+    "id": 7,
+    "title": "Vanhoover Pony Expo",
+    "images": [
+      { "type": "webp", "url": "./images/vpe.webp" },
+      { "type": "png", "url": "./images/vpe.png" }
+    ],
+    "description": "Since 2020, I have been maintaining and re-theming the Vanhoover Pony Expo site for each year's event. I have iterated over a couple of technology stacks in that time, starting with Joomla!, moving to WordPress, and now an upcoming migration to Hugo. During this time, I have also created a WordPress theme from scratch and multiple plugins to add functionality to the site. One such enhancement is a custom widget to read and pull sponsor tier memberships from Convention Master (directly from the self-hosted DB since it does not have its own API at time of writing) and display them on the website as a thank you message.",
+    "link": "https://archive.vanhoover.ca/",
+    "linkText": "Visit Archives"
+  },
+  {
+    "id": 6,
+    "title": "VancouFur",
+    "images": [
+      { "type": "webp", "url": "./images/vf.webp" },
+      { "type": "png", "url": "./images/vf.png" }
+    ],
+    "description": "I have been assisting with the website since 2021, supplying a few custom plugins, but come 2023, I overhauled the WordPress theme from scratch instead of using an off the shelf solution. Like with Vanhoover, I have done a lot of customization to meet requirements; including the Convention Master integration along with custom WooCommerce functionality, which was essential for running a virtual year during the pandemic.",
+    "link": "https://archive.vancoufur.org/",
+    "linkText": "Visit Archives"
+  },
+  {
+    "id": 5,
+    "title": "Howloween",
+    "images": [
+      { "type": "webp", "url": "./images/howl.webp" },
+      { "type": "png", "url": "./images/howl.png" }
+    ],
+    "description": "From 2020, I was providing a supporting role but re-wrote their WordPress theme in 2023 when I became the primary maintainer. In 2024, I moved Howloween from WordPress to Hugo, replacing the CMS with a statically hosted site. I created continuous integration with GitHub to deploy the website production and development branches, allowing for easy deployment.",
+    "link": "https://archive.howloween.ca/",
+    "linkText": "Visit Archives"
+  },
+  {
+    "id": 4,
+    "title": "Aralco WooCom Bridge",
+    "images": [
+      { "type": "webp", "url": "./images/ecom.webp" },
+      { "type": "png", "url": "./images/ecom.png" }
+    ],
+    "description": "Starting in December of 2019, I started creating the Aralco WooCommerce Connector, a plugin for WordPress to link WooCommerce and Aralco POS. Products, taxes, categories, store info, and additional data would be pulled from Aralco and loaded into WooCommerce. Orders would be sent back to Aralco. Additional features were also implemented in WooCommerce to better match the features of Aralco, such as Pickup from specific stores, inventory syncing, Units of Measure, Points, Gift Cards, and more.",
+    "link": "https://aralco.com/features/e-commerce/",
+    "linkText": "Learn More"
+  },
+  {
+    "id": 3,
+    "title": "Aralco Mobile System",
+    "images": [
+      { "type": "webp", "url": "./images/am.webp" },
+      { "type": "png", "url": "./images/am.png" }
+    ],
+    "description": "I have worked closely on the Aralco Mobile POS system since December of 2017. Aralco has one of the most powerful POS systems on the market with many POS, CRM, Inventory, and Reporting Features. The mobile app is build in Cordova Ionic AngularJS and communicates to a ASP.NET API and connects to SQL Server.",
+    "link": "https://aralco.com/features/e-commerce/",
+    "linkText": "Learn More"
+  },
+  {
+    "id": 2,
+    "title": "Internal Survey Platform",
+    "images": [
+      { "type": "webp", "url": "./images/hs.webp" },
+      { "type": "png", "url": "./images/hs.png" }
+    ],
+    "description": "Created a working internal Ionic survey platform for checking the health of ongoing projects. Users would login with a social media account and fill out a survey and the app would give a real-time anonymous health report to all users. Database contained on Google Firebase. This was a mobile application built for Hootsuite as part of the BCIT Software Systems Developer Industry Project. Due to the nature of the agreement with Hootsuite, you must contact me to get a demo of this project."
+  },
+  {
+    "id": 1,
+    "title": "Hangman",
+    "images": [
+      { "type": "webp", "url": "./images/hm.webp" },
+      { "type": "png", "url": "./images/hm.png" }
+    ],
+    "description": "A simple game of hangman. This is and older project where the challenge was to create a game using nothing but and empty body and JavaScript (JQuery and other javascript libraries were not allowed). In addition, only the DOM node methods were allowed. No innerHTML. While functional, this game is not mobile optimized and will likely render poorly.",
+    "link": "https://sailextech.me/hangman/",
+    "linkText": "Play"
+  }
+]
